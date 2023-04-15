@@ -1,1 +1,16 @@
 /* ここから下に記載していく */
+/* ここは共通系 */
+.en-title{
+    font-size: 24px;
+}
+.ja-title{
+    font-size: 18px;
+}
+.yellow{
+    color: #ffd61a;
+}
+.all-p{
+    font-size: 16px;
+    color: black;
+}
+/*ここから下は上部から順に書いていく  */
