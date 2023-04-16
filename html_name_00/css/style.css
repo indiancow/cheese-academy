@@ -25,6 +25,10 @@ a{
 }
 /*ここから下は上部から順に書いていく  */
 /* ヘッダー */
+.header_logo img{
+    width: 200px;
+    height: 200px;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -50,6 +54,9 @@ a{
         width: 100%;
         /* position: absolute;これがあるとなんでだめなの？ */
         padding-bottom: 30px;
+    }
+    .toppage_image img{
+        width: 100px;
     }
     .toppage_image img{
         width: 100%;
@@ -85,7 +92,7 @@ a{
     background-size: cover;
 }
 .about_image img{
-    width: 100%;
+    width: 25%;
 }
 .about_p{
     padding-bottom: 60px;
@@ -134,7 +141,7 @@ a{
 /* .course_card img{
     width: 0%;
 } */
-.course_image{
+.course_image img{
     margin: auto;
     width: 50%;
 }
@@ -179,6 +186,9 @@ a{
 }
 .news_image:hover{
     transform: scale(1.2,1.2);
+}
+.news_image img{
+    width: 100%;
 }
 .news_button{
     display: flex;
