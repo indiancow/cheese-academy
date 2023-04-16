@@ -51,6 +51,9 @@ a{
         /* position: absolute;これがあるとなんでだめなの？ */
         padding-bottom: 30px;
     }
+    .toppage_image img{
+        width: 100%;
+    }
     .toppage_text{
         width: 100%;
         position: absolute;
@@ -81,6 +84,9 @@ a{
     width: 100%;
     background-size: cover;
 }
+.about_image img{
+    width: 100%;
+}
 .about_p{
     padding-bottom: 60px;
 }
@@ -93,6 +99,8 @@ a{
     align-items: center;
     background-color: #fafafa;
     width: 100%;
+    /* text-align: center; */
+    margin: auto;
 }
 .course_card2{
     display: flex;
@@ -100,26 +108,43 @@ a{
     background-color: #fafafa;
     width: 100%;
     flex-direction: row-reverse;
+    margin: auto;
+}
+.course_card3{
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    width: 100%;
+    /* text-align: center; */
+    margin: auto;
 }
 .course_text{
-    margin-left: 50px;
-    width: 480px;
+    padding-left: 50px;
+    width: 50%;
 }
 .course_text2{
-    margin-right: 50px;
-    width: 480px;
+    padding-right: 50px;
+    width: 50%;
+    text-align: center;
 }
 .course_h{
     font-weight: bold;
     font-size: 20px;
+}
+/* .course_card img{
+    width: 0%;
+} */
+.course_image{
+    margin: auto;
+    width: 50%;
 }
 .course_p{
     margin-top: 40px;
     line-height: 30px;
 }
 .course_p1{
-margin-bottom: 60px;
-margin-top: 0;
+    margin-bottom: 60px;
+    margin-top: 0;
 }
 
 /* news */
@@ -168,6 +193,12 @@ margin-top: 0;
     align-items: center;
     text-align: center;
     /* なんで真ん中に行ってくれないの？ */
+}
+.news_button a{
+    color: white;
+}
+.news_button a:hover{
+    color: pink;
 }
 .news_button:hover{
     font-size: 60px;
